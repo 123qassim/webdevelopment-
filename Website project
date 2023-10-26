@@ -1,0 +1,62 @@
+public class
+ <!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <p>Here's some background music:</p>
+    <audio controls autoplay loop>
+        <source src="https://your-onedrive-link.com/your-audio-file.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <p>Here are some documents for download:</p>
+    
+    <ul>
+        <li><a href="https://1drv.ms/p/s!Al9GRcTEYVJaghF8THSYOzqgOH7Y?e=3e0xW7" download="document1.pdf">Download Document 1</a></li>
+        <li><a href="https://1drv.ms/p/s!Al9GRcTEYVJaghF8THSYOzqgOH7Y?e=3e0xW7" download="document2.docx">Download Document 2</a></li>
+    </ul>
+    <title>Sign Up</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+            color: white;
+        }
+        .container {
+            text-align: center;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sign Up</h1>
+        <p>Please fill this form to create an account</p>
+        <form id="signupForm">
+            <label>Name</label>
+            <input type="text" id="name" placeholder="Name"><br>
+            <label>Email</label>
+            <input type="email" id="email" placeholder="Email"><br>
+            <label>Password</label>
+            <input type="password" id="password" placeholder="Password"><br>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById("signupForm").addEventListener("submit", function(e) {
+            e.preventDefault();
+
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const password = document.getElementById("password").value;
+
+
+            window.location.href = "https://1drv.ms/u/s!Al9GRcTEYVJagg1w1VUor9PToG4t?e=UIgwgl";
+        });
+    </script>
+</body>
+</html>
+Main {
+    
+}
+
